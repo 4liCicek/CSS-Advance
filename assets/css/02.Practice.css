@@ -1,0 +1,34 @@
+.menu {
+    font-family: "roboto";
+    text-align: left;
+    background-color: aqua;
+    width: 300px;
+}
+
+nav.menu ul {
+    list-style-type: "🚴‍♂️";
+    padding: 1rem;
+    list-style-position: inside;
+
+
+}
+
+nav.menu a {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    padding-left: 0 0.5rem;
+}
+
+nav.menu a:visited {
+    color: black;
+}
+
+nav.menu a:hover {
+    background-color: red;
+    color: yellow;
+}
+
+nav.menu li {
+    padding: 0.3rem;
+}
