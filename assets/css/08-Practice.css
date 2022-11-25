@@ -1,0 +1,8 @@
+.menu:hover ul {
+
+    display: block;
+}
+
+.menu ul {
+    display: none;
+}
