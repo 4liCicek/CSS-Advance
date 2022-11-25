@@ -1,0 +1,16 @@
+a {
+    color: #EAF6F6;
+    background-color: #FF0063;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+ul {
+    text-align: center;
+    word-spacing: 20px;
+}
+
+li {
+    display: inline-block;
+}
