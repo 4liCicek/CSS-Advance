@@ -1,0 +1,36 @@
+.menu {
+    background-color: rgb(219, 182, 50);
+    text-align: center;
+}
+
+nav.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav.menu li {
+    display: inline-block;
+}
+
+nav.menu li::after {
+    content: "|";
+    color: rgb(0, 255, 174);
+}
+
+nav.menu li:last-child::after {
+    content: "➡️";
+
+}
+
+nav.menu li:first-child::before {
+    content: "⬅️";
+
+}
+
+nav.menu a {
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+
+}
